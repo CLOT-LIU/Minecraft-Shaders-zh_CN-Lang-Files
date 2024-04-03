@@ -788,7 +788,7 @@ option.AIR_FOG_COLORED_LIGHT_SHAFTS.comment=光轴穿过半透明事物时会被
 
 option.BORDER_FOG.comment=渲染视距边缘被浓雾笼罩以隐藏区块边界.
 
-option.CAVE_FOG=在地下洞穴区域应用稍微发光的雾气. 可以使巨型洞穴氛围更棒, 也有助于看清洞穴形状.
+option.CAVE_FOG.comment=在地下洞穴区域应用稍微发光的雾气. 可以使巨型洞穴氛围更棒, 也有助于看清洞穴形状.
 
 option.BLOOMY_FOG.comment=雾气的强烈泛光. 使得明亮事物发出的光像是在雾气中散射, 并且照亮后方区域. 几乎没有性能消耗.
 
