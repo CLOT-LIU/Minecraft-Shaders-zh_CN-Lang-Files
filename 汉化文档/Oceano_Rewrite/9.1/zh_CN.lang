@@ -1,0 +1,76 @@
+# Values #
+
+value.ToneMap.0=Minecraft
+value.ToneMap.1=Filmic_Hejl2015
+value.ToneMap.2=Duiker
+value.ToneMap.3=ACES
+
+option.saturation=强度
+option.filmGrain=强度
+option.fakecloudshadow = 云影
+
+option.BounceLight = 补光
+option.BounceColoredLight = 彩色补光
+
+
+# Additional Options #
+profile.Minecraft=我的世界
+profile.MinecraftFast=我的世界-轻量
+profile.Medium=中
+profile.High=高
+
+
+screen.ShadowMap=阴影
+    option.shadowMapResolution=阴影分辨率
+    option.sunPathRotation=太阳斜角
+    option.shadowDistance=阴影距离
+    option.skyLightMap=天空光
+    option.torchLightMap=方块光
+
+
+screen.Lighting=照明
+    option.lightingQuality=照明质量
+    
+    option.filterStr=闪烁强度
+    option.min_skyLightMap=最小天空光
+    option.lightStr=照明强度
+    option.ambientStr=环境光强度
+    
+    option.BlinnPhong=Blinn-Phong
+    screen.PhongSettings=Phong 配置
+        option.pstrength=Phong 强度
+        option.pshininess=Phong 光泽度
+
+
+screen.Fog=雾气
+    option.fogBlur=雾气模糊
+
+    option.volumetricLight=体积光
+    option.volumetricFogQuality=体积雾质量
+    option.FogAltitude=雾气高度
+    option.FogStrength=雾气强度
+
+
+screen.Post=后期
+    screen.ToneMap=色调映射
+        option.ToneMap=色调映射
+
+        option.Saturation=饱和度调整
+        option.FilmGrain=胶片颗粒调整
+        option.colorTemperature=色温
+
+
+    screen.AntiAliasing=抗锯齿
+        option.FXAA=快速近似抗锯齿(FXAA)
+        option.TAA=时间性抗锯齿(TAA)
+
+        option.Sharpen=图像锐化
+        option.SharpenStr=锐化强度
+
+
+option.NormalMap=法线
+option.wavingFoliage=植物摇晃
+option.Reflections=反射
+
+screen.misc=杂项
+    option.grassHeight=草高度

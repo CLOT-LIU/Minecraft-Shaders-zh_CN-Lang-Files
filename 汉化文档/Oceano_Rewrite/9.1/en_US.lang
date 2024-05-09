@@ -1,0 +1,14 @@
+# Values #
+
+value.ToneMap.0=Minecraft
+value.ToneMap.1=Filmic_Hejl2015
+value.ToneMap.2=Duiker
+value.ToneMap.3=ACES
+
+option.saturation=Strength
+option.filmGrain=Strength
+option.fakecloudshadow = Cloud Shadows
+
+option.BounceLight = Fill Light
+option.BounceColoredLight = Fill Color Light
+
