@@ -1,0 +1,212 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+
+profile.STANDARD=Normal
+profile.UPSCALED=§aUpscaled
+profile.LOW=§bLow
+profile.POTATO=§dLowest
+profile.LOWER=§dLower
+profile.MEDIUM=Medium
+profile.MEDIUM_HIGH=Medium High
+profile.MEDIUM_LOW=§aMedium Low
+profile.HIGH=§eHigh
+profile.ULTRA=§cUltra
+profile.EXTREME=§cExtreme
+profile.LOWTAA=§cLow TAA
+
+
+
+
+screen.LPV=Floodfill
+        option.LPV_SIZE = Size
+            value.LPV_SIZE.6 = Small [64]
+            value.LPV_SIZE.7 = Medium [128]
+            value.LPV_SIZE.8 = Large [256]
+        option.LPV_SATURATION = Light Saturation
+            suffix.LPV_SATURATION=%
+        option.LPV_TINT_SATURATION = Tint Saturation
+            suffix.LPV_TINT_SATURATION=%
+        option.LPV_NORMAL_STRENGTH = Normal Strength
+            suffix.LPV_NORMAL_STRENGTH = %
+            value.LPV_NORMAL_STRENGTH.0 = OFF
+        option.LPV_ENTITY_LIGHTS = Entity Lights
+        option.LPV_REDSTONE_LIGHTS = Redstone Lights
+        option.LPV_COLORED_CANDLES = Colored Candles
+        option.LPV_NOSHADOW_HACK = Iris <= 1.7.0 Fix
+
+
+
+
+screen.Shading=Shading
+screen.SHADOW_FILTERING=Shadow Filtering
+screen.Temporal_effects=Temporal Effects
+screen.Wavy_stuff=Wavy Stuff
+screen.LabPBR=LabPBR
+screen.DOF=Depth of field
+screen.Quality=Quality
+screen.Misc=Misc
+ option.shadowDistance = Shadow Distance
+            value.shadowDistance.64.0 = 4 Chunks
+            value.shadowDistance.80.0 = 5 Chunks
+            value.shadowDistance.96.0 = 6 Chunks
+            value.shadowDistance.112.0 = 7 Chunks
+            value.shadowDistance.128.0 = 8 Chunks
+            value.shadowDistance.144.0 = 9 Chunks
+            value.shadowDistance.160.0 = 10 Chunks
+            value.shadowDistance.176.0 = 11 Chunks
+            value.shadowDistance.192.0 = 12 Chunks
+            value.shadowDistance.208.0 = 13 Chunks
+            value.shadowDistance.224.0 = 14 Chunks
+            value.shadowDistance.240.0 = 15 Chunks
+            value.shadowDistance.256.0 = 16 Chunks
+            value.shadowDistance.272.0 = 17 Chunks
+            value.shadowDistance.288.0 = 18 Chunks
+            value.shadowDistance.304.0 = 19 Chunks
+            value.shadowDistance.320.0 = 20 Chunks
+            value.shadowDistance.336.0 = 21 Chunks
+            value.shadowDistance.352.0 = 22 Chunks
+            value.shadowDistance.368.0 = 23 Chunks
+            value.shadowDistance.384.0 = 24 Chunks
+            value.shadowDistance.400.0 = 25 Chunks
+            value.shadowDistance.416.0 = 26 Chunks
+            value.shadowDistance.432.0 = 27 Chunks
+            value.shadowDistance.448.0 = 28 Chunks
+            value.shadowDistance.464.0 = 29 Chunks
+            value.shadowDistance.480.0 = 30 Chunks
+            value.shadowDistance.496.0 = 31 Chunks
+            value.shadowDistance.512.0 = 32 Chunks
+#Settings
+
+option.DEBUG_MODE=Debug Mode
+value.DEBUG_MODE.0=None
+value.DEBUG_MODE.1=Ambient
+value.DEBUG_MODE.2=Reflections
+value.DEBUG_MODE.3=World Normals
+value.DEBUG_MODE.4=Shadows
+value.DEBUG_MODE.5=Torch Light
+
+#SHADOW_FILTERING
+option.shadowMapResolution=Shadowmap Resolution
+option.shadowMapResolution.comment=Adjusts shadowmap size. §e[*]§r Higher resolution gives sharper shadows, but reduces performance.
+
+
+
+option.SHADOW_FILTERING=Shadow Filtering
+value.SHADOW_FILTERING.0=None
+value.SHADOW_FILTERING.1=Simple
+value.SHADOW_FILTERING.2=Advanced
+
+
+option.shadowDistance.comment=Adjusts shadow distance.
+
+option.PENUMBRA_SHADOWS=Penumbra Shadows
+option.CONTACT_SHADOWS=Contact Shadows
+option.SSR_STEPS= SSR Steps
+option.SKYBLEND=  Sky Fade
+option.CLOUD_STYLE=Cloud Style
+value.CLOUD_STYLE.1=Minecraft
+value.CLOUD_STYLE.2=Realistic
+#Shading
+option.SSAO=Ambient Occlusion
+option.RSM_SAMPLES=GI Samples
+value.SSAO.0=Disabled
+value.SSAO.1=Simple
+value.SSAO.2=Advanced
+option.MIN_LIGHT=Minimum ambient light
+option.TORCH_COLOR=Light Color
+option.RSM=Global Illumination
+option.sunPathRotation = Sun Path Rotation
+option.VOLUMETRIC_LIGHTING = Volumetric Fog
+option.BLOOM = Bloom
+option.SSS_ALT = Simplifed SSS
+option.CLOUDS = Clouds
+option.SSAO = Ambient Occlusion
+option.HQ_NOISE = High Quality Noise
+
+#PBR
+option.LPV_ENABLED=Floodfill Lighting
+option.LPV_SIZE=Floodfill Distance
+option.LAB_PBR=LabPBR Maps
+option.POM_DEPTH=Parallax Depth
+option.POM=Parallax Occlusion
+option.NORMAL_MAPS=Normal Maps
+
+
+option.POM_MAP_RES=POM resolution
+option.MAX_ITERATIONS=POM Iterations
+option.MAX_DIST=Max POM Distance
+option.BUMP_MULT=Normal depth
+option.PBR_REFLECTIONS= Screen Space Reflections
+option.REFLECTION_CUTOFF= SSR Cutoff
+
+option.CLOUD_QUALITY=Cloud Resolution
+value.CLOUD_QUALITY.1=0.5
+value.CLOUD_QUALITY.2=0.75
+value.CLOUD_QUALITY.3=1.0
+option.HQ_WATER=High Quality Waves
+option.CAUSTICS=Caustics
+option.REFRACTION=Refraction
+
+#DOF
+
+option.CLOUD_SHADOWS=Cloud Shadows
+option.DH_SHADOWMAP=Distant Horizons Shadows
+
+option.CAMERA_SENSOR_SIZE_MM=Sensor Size
+option.VL_SAMPLES=Volume Samples
+option.SHADOW_SAMPLES=Shadow Samples
+option.DISTORTION_ADJUSTMENT=Adjust Distortion
+option.VERTEX_WAVES=Geometry Waves
+option.NO_ENTITY_TAA=Disable on entities
+option.VL_NOISE_DENSITY=Volumetric Mist
+option.VL_NOISE_DENSITY_HQ=High Quality Mist
+option.DOF=Depth of field
+option.DOF_MODE=Focus mode
+option.DOF_MODE.comment=Focus mode of the camera. 'Auto' focuses on whatever the player is looking at. 'Manual' allows the player to set the distance the camera tries to focus at with Shader setting "Manual focus distance". 'Manual+' allows to use Brightness value as multiplier to "Manual focus distance".
+value.DOF_MODE.0=Auto
+value.DOF_MODE.1=Manual
+value.DOF_MODE.2=Manual+
+option.BOKEH_MODE=Bokeh mode
+option.BOKEH_MODE.comment=Switches which Bokeh will show on DOF (probably needs better explanation)
+value.BOKEH_MODE.0=Standard
+value.BOKEH_MODE.1=Hexagonal
+value.BOKEH_MODE.2=High Quality
+value.BOKEH_MODE.3=Paint/Brush
+option.FOCAL=Focal length
+suffix.FOCAL=mm
+option.APERTURE=Aperture
+prefix.APERTURE=f/
+option.MANUAL_FOCUS=Manual focus distance
+suffix.MANUAL_FOCUS= m
+option.EXCLUDE_MODE=Blur Mode
+option.RTAO_SAMPLES=Advanced AO Samples
+option.RTAO_TRACE_SAMPLES=Advanced AO Trace Samples
+value.EXCLUDE_MODE.0=Far and Near, with Hand
+value.EXCLUDE_MODE.1=Far, without Near and Hand
+value.EXCLUDE_MODE.2=Far and Near, without Hand
+
+
+#TAA
+option.FLICKER_REDUCTION=Flicker reduction
+option.TAA_HISTORY_WEIGHT=Blend factor
+
+option.TAA_UPSCALING=TAA Upscaling
+option.RENDER_SCALE_X=Horizontal render scale
+option.RENDER_SCALE_Y=Vertical render scale
+
+
+option.TAA = Temporal Anti-Aliasing
+option.TAA.comment = Performs anti-aliasing over multiple frames. Can result in various artifacts. Small to medium performance impact.
+option.TAA_CLIP = Clipping
+option.TAA_CLIP.comment = Minimizes ghosting in motion, but can introduce flickering. Small performance impact.
+
+option.TAA_FILTER = TAA Filter
+option.TAA_FILTER.comment = Filter used for frame information. Subtly affects edge smoothness & sharpness. Nearest gives very sharp but subtly aliased edges. Bilinear gives very smooth but subtly soft edges. Bicubic gives good smoothness and sharpness.
+value.TAA_FILTER.FILTER_BICUBIC = Bicubic (Catmull-Rom)
+value.TAA_FILTER.FILTER_BILINEAR = Bilinear
+value.TAA_FILTER.FILTER_NEAREST = Nearest
+option.TAA_OFFCENTER_REJECTION = Offcenter Rejection
+option.TAA_OFFCENTER_REJECTION.comment = Controls balance between aliasing vs blurring in motion.
+option.TAA_USE_CLOSEST_DEPTH = Use Closest Depth
+option.TAA_USE_CLOSEST_DEPTH.comment = Improves quality of geometry edges in motion. Small to medium performance impact.
