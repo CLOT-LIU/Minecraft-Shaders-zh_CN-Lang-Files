@@ -1,0 +1,282 @@
+#shaders/lang/zh_CN.lang
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Bloop v1.2.2 版本。
+
+#Profiles
+
+profile.STANDARD=普通
+profile.UPSCALED=§a高质量
+profile.LOW=§b低
+profile.POTATO=§d最低
+profile.LOWER=§d稍低
+profile.MEDIUM=中
+profile.MEDIUM_HIGH=中偏高
+profile.MEDIUM_LOW=§a中偏低
+profile.HIGH=§e高
+profile.ULTRA=§c超高
+profile.EXTREME=§c极致
+profile.LOWTAA=§c轻度时间性抗锯齿
+
+
+
+
+screen.LPV=Floodfill
+        option.LPV_SIZE = 规模
+            value.LPV_SIZE.6 = 小 [64]
+            value.LPV_SIZE.7 = 中 [128]
+            value.LPV_SIZE.8 = 大 [256]
+        option.LPV_SATURATION = 光源饱和度
+            suffix.LPV_SATURATION=%
+        option.LPV_TINT_SATURATION = 着色饱和度
+            suffix.LPV_TINT_SATURATION=%
+        option.LPV_NORMAL_STRENGTH = 法线强度
+            suffix.LPV_NORMAL_STRENGTH = %
+            value.LPV_NORMAL_STRENGTH.0 = 关
+        option.LPV_ENTITY_LIGHTS = 实体光源
+        option.LPV_REDSTONE_LIGHTS = 红石光源
+        option.LPV_COLORED_CANDLES = 彩色蜡烛
+        option.LPV_NOSHADOW_HACK = 低版本 Iris 修复 [<= 1.7.0]
+
+
+
+
+screen.Shading=阴影
+screen.SHADOW_FILTERING=阴影过滤
+screen.Temporal_effects=时间性效果
+screen.Wavy_stuff=摇摆效果
+screen.LabPBR=LabPBR
+screen.DOF=景深
+screen.Quality=质量
+screen.Misc=杂项
+ option.shadowDistance = 阴影距离
+            value.shadowDistance.64.0 = 4 区块
+            value.shadowDistance.80.0 = 5 区块
+            value.shadowDistance.96.0 = 6 区块
+            value.shadowDistance.112.0 = 7 区块
+            value.shadowDistance.128.0 = 8 区块
+            value.shadowDistance.144.0 = 9 区块
+            value.shadowDistance.160.0 = 10 区块
+            value.shadowDistance.176.0 = 11 区块
+            value.shadowDistance.192.0 = 12 区块
+            value.shadowDistance.208.0 = 13 区块
+            value.shadowDistance.224.0 = 14 区块
+            value.shadowDistance.240.0 = 15 区块
+            value.shadowDistance.256.0 = 16 区块
+            value.shadowDistance.272.0 = 17 区块
+            value.shadowDistance.288.0 = 18 区块
+            value.shadowDistance.304.0 = 19 区块
+            value.shadowDistance.320.0 = 20 区块
+            value.shadowDistance.336.0 = 21 区块
+            value.shadowDistance.352.0 = 22 区块
+            value.shadowDistance.368.0 = 23 区块
+            value.shadowDistance.384.0 = 24 区块
+            value.shadowDistance.400.0 = 25 区块
+            value.shadowDistance.416.0 = 26 区块
+            value.shadowDistance.432.0 = 27 区块
+            value.shadowDistance.448.0 = 28 区块
+            value.shadowDistance.464.0 = 29 区块
+            value.shadowDistance.480.0 = 30 区块
+            value.shadowDistance.496.0 = 31 区块
+            value.shadowDistance.512.0 = 32 区块
+#Settings
+
+option.DEBUG_MODE=调试模式
+value.DEBUG_MODE.0=无
+value.DEBUG_MODE.1=环境光
+value.DEBUG_MODE.2=反射
+value.DEBUG_MODE.3=世界法线
+value.DEBUG_MODE.4=阴影
+value.DEBUG_MODE.5=手持光源
+
+#SHADOW_FILTERING
+option.shadowMapResolution=阴影分辨率
+option.shadowMapResolution.comment=调节阴影图尺寸. §e[*]§r 越高的分辨率可以得到越锐利的阴影, 但会降低性能.
+
+
+
+option.SHADOW_FILTERING=阴影过滤
+value.SHADOW_FILTERING.0=无
+value.SHADOW_FILTERING.1=简易
+value.SHADOW_FILTERING.2=高级
+
+
+option.shadowDistance.comment=调节阴影渲染距离.
+
+option.PENUMBRA_SHADOWS=半影
+option.CONTACT_SHADOWS=接触阴影
+option.SSR_STEPS= 屏幕空间反射采样数
+option.SKYBLEND=  天空渐消
+option.CLOUD_STYLE=云层风格
+value.CLOUD_STYLE.1=Minecraft
+value.CLOUD_STYLE.2=拟真
+#Shading
+option.SSAO=环境光遮蔽
+option.RSM_SAMPLES=GI 采样值
+value.SSAO.0=禁用
+value.SSAO.1=简易
+value.SSAO.2=高级
+option.MIN_LIGHT=最小环境光
+option.SUNMULT=晨昏照明倍率
+option.TORCH_COLOR=光源颜色
+option.NAMETAG_FIX=名字修复
+option.RSM=RSM 全局照明
+option.ALT_CLOUDS=替选云层
+option.VANILLA_WATER=水体纹理化
+option.sunPathRotation = 太阳角度
+option.VOLUMETRIC_LIGHTING = 体积雾
+option.USE_LUMINANCE_AS_HEIGHTMAP = 程序化生成 POM 贴图
+option.GENERATED_NORMALS = 程序化生成 法线 贴图
+option.BLOOM = 泛光
+option.SSS_ALT = 简易次表面散射
+option.CLOUDS = 云层
+option.SSAO = 环境光遮蔽
+option.HQ_NOISE = 高质量噪声
+
+#PBR
+option.LPV_ENABLED=Floodfill 照明
+option.LPV_SIZE=Floodfill 距离
+option.LAB_PBR=LabPBR 纹理
+option.POM_DEPTH=视差深度
+option.POM=视差
+option.NORMAL_MAPS=法线纹理
+
+
+option.POM_MAP_RES=视差分辨率
+option.MAX_ITERATIONS=视差迭代数
+option.MAX_DIST=视差最大渲染距离
+option.BUMP_MULT=法线深度
+option.PBR_REFLECTIONS= 屏幕空间反射
+option.REFLECTION_CUTOFF= 屏幕空间反射阈值
+
+option.CLOUD_QUALITY=云层分辨率
+value.CLOUD_QUALITY.1=0.5x
+value.CLOUD_QUALITY.2=0.75x
+value.CLOUD_QUALITY.3=1.0x
+option.HQ_WATER=高质量水波
+option.CAUSTICS=焦散线
+option.REFRACTION=折射
+
+#DOF
+
+option.CLOUD_SHADOWS=云影
+option.DH_SHADOWMAP=Distant Horizons 阴影
+
+option.CAMERA_SENSOR_SIZE_MM=传感器大小
+option.VL_SAMPLES=体积采样值
+option.SHADOW_SAMPLES=阴影采样值
+option.DISTORTION_ADJUSTMENT=失真调节
+option.VERTEX_WAVES=几何水波
+option.NO_ENTITY_TAA=不对实体应用时间性抗锯齿
+option.VL_NOISE_DENSITY=体积迷雾
+option.VL_NOISE_DENSITY_HQ=高质量迷雾
+option.DOF=景深
+option.DOF_MODE=对焦模式
+option.DOF_MODE.comment=镜头对焦模式. '自动' 会自动对焦玩家对准的东西. '手动' 允许玩家通过 "手动对焦距离" 选项来设置镜头的对焦距离. '手动+' 允许玩家使用视频设置中的亮度值滑块作为 "手动对焦距离" 选项的倍率调节开关.
+value.DOF_MODE.0=自动
+value.DOF_MODE.1=手动
+value.DOF_MODE.2=手动+
+option.BOKEH_MODE=虚化模式
+option.BOKEH_MODE.comment=切换景深虚化的表现形式 (或许需要更好的解释)
+value.BOKEH_MODE.0=标准
+value.BOKEH_MODE.1=六边
+value.BOKEH_MODE.2=高质量
+value.BOKEH_MODE.3=油漆/笔刷
+option.FOCAL=焦距
+suffix.FOCAL=mm
+option.APERTURE=光圈
+prefix.APERTURE=f/
+option.MANUAL_FOCUS=手动对焦距离
+suffix.MANUAL_FOCUS= m
+option.EXCLUDE_MODE=模糊模式
+option.RTAO_SAMPLES=高级环境光遮蔽采样值
+option.RTAO_TRACE_SAMPLES=高级环境光遮蔽追踪采样值
+value.EXCLUDE_MODE.0=远+近, 包括手臂
+value.EXCLUDE_MODE.1=远, 不包括近处和手臂
+value.EXCLUDE_MODE.2=远+近, 不包括手臂
+
+
+#TAA
+option.FLICKER_REDUCTION=减少闪烁
+option.TAA_HISTORY_WEIGHT=混合系数
+
+option.TAA_UPSCALING=TAA 升采样
+option.RENDER_SCALE_X=水平渲染比例
+option.RENDER_SCALE_Y=垂直渲染比例
+
+
+option.TAA = 时间性抗锯齿[TAA]
+option.TAA.comment = 在多个帧上执行抗锯齿混合. 可能会导致各种伪影. 对性能有小到中幅的影响.
+option.TAA_CLIP = TAA 修剪
+option.TAA_CLIP.comment = 最大化减小运动产生的拖影, 但可能会引入更多的闪烁. 对性能有小幅小幅影响.
+
+option.TAA_FILTER = TAA 过滤器
+option.TAA_FILTER.comment = 用于帧信息的过滤. 轻微影响边缘的锐利平滑程度. 最近邻插值会给出非常锐利但是重叠的边缘. 双线性插值会有非常平滑但是过于软的边缘. 双三次插值会给出平滑又锐利的边缘.
+value.TAA_FILTER.FILTER_BICUBIC = 双三次 (Catmull-Rom)
+value.TAA_FILTER.FILTER_BILINEAR = 双线性
+value.TAA_FILTER.FILTER_NEAREST = 最近邻
+option.TAA_OFFCENTER_REJECTION = 偏心运动抑制
+option.TAA_OFFCENTER_REJECTION.comment = 控制运动中帧重叠和和模糊之间的平衡.
+option.TAA_USE_CLOSEST_DEPTH = 使用最近深度
+option.TAA_USE_CLOSEST_DEPTH.comment = 提高运动中几何边缘的质量. 对性能有小到中幅的影响.
+
+##Additional options
+
+screen.Atmosphere=大气
+
+screen.PBR=PBR
+
+screen.Water=水体
+
+screen.TAA=时间性抗锯齿[TAA]
+
+screen.Tonemapping=色调映射
+    option.VIBRANCE=自然饱和度
+    option.SATURATION=饱和度
+    option.HDR_MAX=HDR MAX
+    option.EXPOSURE=曝光
+    option.CONTRAST=对比度
+    option.SHOULDER=肩部曲线
+    option.MID_IN=MID IN
+    option.MID_OUT=MID OUT
+
+
+screen.Beta=测试
+
+screen.Debug=调试
+    screen.Debug2=调试2
+        option.cloudDensity=云层密度
+        option.AO_MODE=环境光遮蔽模式
+        option.WATER_SHADOWS=水体阴影
+        option.BRIGHTNESS=亮度
+        option.REFLECTION_SAMPLES=反射采样值
+        option.SSPT_SAMPLES=SSPT 采样值
+        option.SSAO_SAMPLES=屏幕空间环境光遮蔽采样值
+        option.CLOUD_SAMPLES=云层采样值
+        option.LPV_BLEND_DISTANCE=Floodfill 混合距离
+        option.DH_ON=DH 支持
+        option.UTILITY_TEXTRENDERING_INCLUDED=实用文本渲染包含
+        option.OVERWORLD=主世界
+        option.SAMPLES=采样值
+        option.DISTRIBUTION_BIAS=Distribution Bias
+        option.PIXEL_MULTIPLIER=像素倍率
+        option.INVERSE_HUE_TOLERANCE=Inverse Hue Tolerance
+        option.GOLDEN_ANGLE=黄金角
+        option.SHARPENING_AMOUNT=锐化强度
+        option.WAVY_STRENGTH=摇晃强度
+        option.WAVY_SPEED=摇晃速度
+        option.RENDER_SHADOWCOMP=渲染组合阴影
+        option.IS_LPV_ENABLED=Floodfill 是否被启用?
+        option.USE_YCOCG=使用 YCOCG
+        option.NETHER=下界
+        option.ENTITY=实体
+        option.COMPLEX_NORMALS=Complex Normals
+        option.LEAVES=树叶
+        option.RENDER_SETUP=Render Setup
+        option.END=末地
+
+    option.SHADOW_DEBUG=调试阴影
+    option.SHADOWS_ENABLED=阴影
+    option.TIMEFREEZE=冻结时间
+
