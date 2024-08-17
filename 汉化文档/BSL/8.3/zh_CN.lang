@@ -968,8 +968,8 @@ option.CG_TI=色调强度值
 option.CG_TM=色调混合值
 
 #Extras
-option.OUTLINE=轮廓 §c[-]§r黑色, 着色, 以及 1.12更新艺术效果不能完美兼容体积云.
-option.OUTLINE.comment=启用轮廓效果.
+option.OUTLINE=轮廓
+option.OUTLINE.comment=启用轮廓效果. §c[-]§r黑色, 着色, 以及 1.12更新艺术效果不能完美兼容体积云.
 value.OUTLINE.0=关
 value.OUTLINE.1=黑色
 value.OUTLINE.2=着色
