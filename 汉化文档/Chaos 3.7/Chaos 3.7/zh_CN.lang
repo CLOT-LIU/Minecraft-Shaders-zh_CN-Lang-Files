@@ -1,313 +1,322 @@
-
 #shaders/lang/zh_CN.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 Chaos 3.7 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
 
 #Screens
-screen.Visual=Visual
+screen.Visual=视觉
 
-screen.PostProcess=Post Process
-screen.ColorGrading=Color Grading
-screen.Col1=Red Channel
-screen.Col2=Green Channel
-screen.Col3=Blue Channel
-screen.Col4=Tint
-screen.ColorAdjustment=Color Adjustment
+screen.PostProcess=后处理
+screen.ColorGrading=颜色分级
+screen.Col1=红色通道
+screen.Col2=绿色通道
+screen.Col3=蓝色通道
+screen.Col4=色调强度
+screen.ColorAdjustment=颜色调整
 
-screen.Shadows=Shadows
+screen.Shadows=阴影
 
-screen.Sky=Sky
+screen.Sky=天空
 
-screen.Color=Color
-screen.Light=Lighting Color
-screen.LightM=Light (Morning)
-screen.LightD=Light (Day)
-screen.LightN=Light (Night)
-screen.LightR=Light (Rain)
-screen.SkyM=Ambient (Morning)
-screen.SkyD=Ambient (Day)
-screen.SkyN=Ambient (Night)
-screen.SkyR=Ambient (Rain)
-screen.Torch=Blocklight Color
-screen.SkyColor=Sky Color
-screen.WaterColor=Water Color
-screen.Nether=Nether Color
-screen.End=End Color
+screen.Color=颜色
+screen.Light=光照颜色
+screen.LightM=光照 (清晨)
+screen.LightD=光照 (日间)
+screen.LightN=光照 (夜晚)
+screen.LightR=光照 (雨天)
+screen.SkyM=环境光 (清晨)
+screen.SkyD=环境光 (日间)
+screen.SkyN=环境光 (夜晚)
+screen.SkyR=环境光 雨天)
+screen.Torch=方块光颜色
+screen.SkyColor=天空颜色
+screen.WaterColor=水体颜色
+screen.Nether=下届颜色
+screen.End=末地颜色
 
-screen.Water=Water
+screen.Water=水体
 
-screen.Terrain=Waving Blocks
+screen.Terrain=方块摇摆
 
-screen.World=World
+screen.World=世界
 
 #Settings
 option.About=Chaos Shaders
 value.About.0=by Vustolord
 
 #Visual
-option.AO=Ambient Occlusion
-option.LightShaft=Light Shafts
-option.Celshade=Black Outline
-option.LightmapBanding=Lightmap Banding
-option.ExtraReflection=Extra Reflection
-option.BumpyEdge=Bumpy Edge
-option.RPSupport=Resource Pack Support
-option.RPSFormat=Specular Format
-option.AOHQ=High Quality AO
-option.AOTranslucent=Translucent AO
-option.POM_MAP_RES=POM Quality
-option.POM_DEPTH=POM Depth
+option.AO=环境光吸收[AO]
+option.LightShaft=光轴
+option.Celshade=黑色描边
+option.LightmapBanding=光照图分级
+option.ExtraReflection=额外反射
+option.BumpyEdge=明暗凹凸边缘
+option.RPSupport=资源包支持
+option.RPSFormat=高光贴图格式
+option.AOHQ=高质量AO
+option.AOTranslucent=半透明 AO
+option.POM_MAP_RES=POM 质量
+option.POM_DEPTH=POM 深度
 
-value.LightShaft.0=OFF
-value.LightShaft.1=Screen Space
-value.LightShaft.2=Volumetric
+value.LightShaft.0=关
+value.LightShaft.1=屏幕空间
+value.LightShaft.2=体积
 
 value.RPSFormat.0=S
 value.RPSFormat.1=SM
 value.RPSFormat.2=SME
 
 #PostProcess
-option.Bloom=Bloom
-option.LensFlare=Lens Flare
-option.DOF=Depth of Field
-option.FogBlur=Fog Blur
-option.MotionBlur=Motion Blur
-option.DirtyLens=Dirty Lens
-option.AverageExposure=Average Exposure
+option.Bloom=泛光
+option.LensFlare=眩光
+option.DOF=景深
+option.FogBlur=雾气模糊
+option.MotionBlur=动态模糊
+option.DirtyLens=脏镜头
+option.AverageExposure=平均曝光倍率
 #	ColorGrading
 #		Col1
-option.ColR1=Red - Red Value
-option.ColG1=Red - Green Value
-option.ColB1=Red - Blue Value
-option.ColS1=Red Strength Value
-option.ColM1=Minimal Red Value
-option.ColC1=Red Curve Value
+option.ColR1=红色 - 红色值
+option.ColG1=红色 - 绿色值
+option.ColB1=红色 - 蓝色值
+option.ColS1=红色强度值
+option.ColM1=最小红色值
+option.ColC1=红色曲线值
 #		Col2
-option.ColR2=Green - Red Value
-option.ColG2=Green - Green Value
-option.ColB2=Green - Blue Value
-option.ColS2=Green Strength Value
-option.ColM2=Minimal Green Value
-option.ColC2=Green Curve Value
+option.ColR2=绿色 - 红色值
+option.ColG2=绿色 - 绿色值
+option.ColB2=绿色 - 蓝色值
+option.ColS2=绿色强度值
+option.ColM2=最小绿色值
+option.ColC2=绿色曲线值
 #		Col3
-option.ColR3=Blue - Red Value
-option.ColG3=Blue - Green Value
-option.ColB3=Blue - Blue Value
-option.ColS3=Blue Strength Value
-option.ColM3=Minimal Blue Value
-option.ColC3=Blue Curve Value
+option.ColR3=蓝色 - 红色值
+option.ColG3=蓝色 - 绿色值
+option.ColB3=蓝色 - 蓝色值
+option.ColS3=蓝色强度值
+option.ColM3=最小蓝色值
+option.ColC3=蓝色曲线值
 #		Col4
-option.ColR4=Tint - Red Value
-option.ColG4=Tint - Green Value
-option.ColB4=Tint - Blue Value
-option.ColS4=Tint Strength Value
-option.ColM4=Tint Mix Value
+option.ColR4=色调 - 红色值
+option.ColG4=色调 - 绿色值
+option.ColB4=色调 - 蓝色值
+option.ColS4=色调强度值
+option.ColM4=色调混合值
 #	ColorAdjustment
-option.ColorAdjustment=Color Adjustment
+option.ColorAdjustment=颜色调整
 #	Generic
-option.ColorGrading=Color Grading
-option.ColorGrading_LUT=Show LUT
-option.Brightness=Brightness
-option.Saturation=Saturation
-option.Contrast=Contrast
+option.ColorGrading=颜色分级
+option.ColorGrading_LUT=显示查询表
+option.Brightness=亮度
+option.Saturation=饱和度
+option.Contrast=对比度
 
 #Shadows
-option.shadowMapResolution=Shadowmap Resolution
-option.sunPathRotation=Sun Path Rotation
-option.ShadowColor=Colored Shadow
-option.ShadowFilter=Shadow Filtering
-option.ShadowLeakFix=Shadow Leak Fix
-option.ShadowCloseDithering=Close Range Dithering
+option.shadowMapResolution=阴影分辨率
+option.sunPathRotation=日月路径旋转
+option.ShadowColor=着色阴影
+option.ShadowFilter=阴影过滤
+option.ShadowLeakFix=阴影泄露修复
+option.ShadowCloseDithering=近距离抖动
 
-value.shadowMapResolution.1024=Low
-value.shadowMapResolution.2048=Medium
-value.shadowMapResolution.4096=High
-value.shadowMapResolution.8192=Very High
+value.shadowMapResolution.1024=低[1024]
+value.shadowMapResolution.2048=中[2048]
+value.shadowMapResolution.4096=高[4096]
+value.shadowMapResolution.8192=非常高[8192]
 
 #Color
 
-option.LightMR=Red
-option.LightMG=Green
-option.LightMB=Blue
-option.LightMS=Strength
+option.LightMR=红色
+option.LightMG=绿色
+option.LightMB=蓝色
+option.LightMS=强度
 
-option.LightDR=Red
-option.LightDG=Green
-option.LightDB=Blue
-option.LightDS=Strength
+option.LightDR=红色
+option.LightDG=绿色
+option.LightDB=蓝色
+option.LightDS=强度
 
-option.LightNR=Red
-option.LightNG=Green
-option.LightNB=Blue
-option.LightNS=Strength
+option.LightNR=红色
+option.LightNG=绿色
+option.LightNB=蓝色
+option.LightNS=强度
 
-option.LightRR=Red
-option.LightRG=Green
-option.LightRB=Blue
-option.LightRS=Strength
+option.LightRR=红色
+option.LightRG=绿色
+option.LightRB=蓝色
+option.LightRS=强度
 
-option.SkyMR=Red
-option.SkyMG=Green
-option.SkyMB=Blue
-option.SkyMS=Strength
+option.SkyMR=红色
+option.SkyMG=绿色
+option.SkyMB=蓝色
+option.SkyMS=强度
 
-option.SkyDR=Red
-option.SkyDG=Green
-option.SkyDB=Blue
-option.SkyDS=Strength
+option.SkyDR=红色
+option.SkyDG=绿色
+option.SkyDB=蓝色
+option.SkyDS=强度
 
-option.SkyNR=Red
-option.SkyNG=Green
-option.SkyNB=Blue
-option.SkyNS=Strength
+option.SkyNR=红色
+option.SkyNG=绿色
+option.SkyNB=蓝色
+option.SkyNS=强度
 
-option.SkyRR=Red
-option.SkyRG=Green
-option.SkyRB=Blue
-option.SkyRS=Strength
+option.SkyRR=红色
+option.SkyRG=绿色
+option.SkyRB=蓝色
+option.SkyRS=强度
 
-option.TorchR=Red
-option.TorchG=Green
-option.TorchB=Blue
-option.TorchS=Strength
+option.TorchR=红色
+option.TorchG=绿色
+option.TorchB=蓝色
+option.TorchS=强度
 
-option.SkyCR=Red
-option.SkyCG=Green
-option.SkyCB=Blue
-option.SkyCS=Strength
+option.SkyCR=红色
+option.SkyCG=绿色
+option.SkyCB=蓝色
+option.SkyCS=强度
 
-option.WaterR=Red
-option.WaterG=Green
-option.WaterB=Blue
-option.WaterS=Strength
-option.WaterA=Alpha
-option.WaterF=Fog Distance
+option.WaterR=红色
+option.WaterG=绿色
+option.WaterB=蓝色
+option.WaterS=强度
+option.WaterA=透明度
+option.WaterF=水雾范围
 
-option.NetherR=Red
-option.NetherG=Green
-option.NetherB=Blue
-option.NetherS=Strength
+option.NetherR=红色
+option.NetherG=绿色
+option.NetherB=蓝色
+option.NetherS=强度
 
-option.EndR=Red
-option.EndG=Green
-option.EndB=Blue
-option.EndS=Strength
+option.EndR=红色
+option.EndG=绿色
+option.EndB=蓝色
+option.EndS=强度
 
-option.SkyV=Vanilla Sky
-option.WaterV=Vanilla Water
+option.SkyV=原版天空
+option.WaterV=原版水体
 
 #Sky
-option.Clouds=Clouds
-option.Stars=Stars
-option.RoundSunMoon=Round Sun & Moon
-option.SkyDesaturation=Sky Desaturation
-option.CloudQuality=Cloud Quality
-option.CloudAmount=Cloud Amount
-option.CloudHeight=Cloud Height
+option.Clouds=云层
+option.Stars=繁星
+option.RoundSunMoon=圆形太阳 & 月亮
+option.SkyDesaturation=天空去饱和度
+option.CloudQuality=云层质量
+option.CloudAmount=云层数量
+option.CloudHeight=云层高度
 
-value.CloudQuality.1=Medium
-value.CloudQuality.2=High
-value.CloudQuality.3=Very High
+value.CloudQuality.1=中
+value.CloudQuality.2=高
+value.CloudQuality.3=非常高
 
-value.CloudAmount.14.0=Very Low
-value.CloudAmount.12.0=Low
-value.CloudAmount.10.0=Medium
-value.CloudAmount.8.0=High
-value.CloudAmount.6.0=Very High
+value.CloudAmount.14.0=非常低
+value.CloudAmount.12.0=低
+value.CloudAmount.10.0=中
+value.CloudAmount.8.0=高
+value.CloudAmount.6.0=非常高
 
-value.CloudHeight.8.0=Very Low
-value.CloudHeight.12.0=Low
-value.CloudHeight.16.0=Medium
-value.CloudHeight.20.0=High
-value.CloudHeight.24.0=Very High
+value.CloudHeight.8.0=非常低
+value.CloudHeight.12.0=低
+value.CloudHeight.16.0=中
+value.CloudHeight.20.0=高
+value.CloudHeight.24.0=非常高
 
 
 #Water
-option.WaterNormals=Normals
-option.WaterReflection=Reflection
-option.WaterParallax=Parallax
-option.WaterRefraction=Refraction
-option.WaterCaustic=Caustic
-option.WaterFog=Underwater Fog
-option.WaterDistantWave=Distant Wave
+option.WaterNormals=水面法线
+option.WaterReflection=水面反射
+option.WaterParallax=水面视差
+option.WaterRefraction=水体折射
+option.WaterCaustic=焦散
+option.WaterFog=水雾
+option.WaterDistantWave=距离波纹
 
 #World
-option.DisableTexture=Disable Texture
-option.Desaturation=Desaturation
-option.BrightEmissive=Bright Emissive
-option.EmissiveRecolor=Emissive Recolor
-option.Weather=Weather
-option.Fog=Fog
-option.WorldTimeAnimation=World Time Animation
+option.DisableTexture=禁用贴图
+option.Desaturation=去饱和度
+option.BrightEmissive=高亮光源
+option.EmissiveRecolor=光源重着色
+option.Weather=天气
+option.Fog=雾气
+option.WorldTimeAnimation=世界时间动画
 
 #Terrain
-option.WavingCrops=Crops
-option.WavingFire=Fire
-option.WavingFlowers=Flowers
-option.WavingGrass=Grass
-option.WavingLava=Lava
-option.WavingLeaves=Leaves
-option.WavingLilypad=Lilypad
-option.WavingTall=Tall Plants
-option.WavingVines=Vines
-option.WavingWater=Water
+option.WavingCrops=作物
+option.WavingFire=火焰
+option.WavingFlowers=花朵
+option.WavingGrass=草
+option.WavingLava=岩浆
+option.WavingLeaves=树叶
+option.WavingLilypad=睡莲
+option.WavingTall=高草丛
+option.WavingVines=藤蔓
+option.WavingWater=水
 
 #Comments
 option.About.comment=by Vustolord.
-option.AO.comment=Darkens intersection between surfaces.
-option.TranslucentAO.comment=Adjusts where ambient occlusion can be done in translucent blocks. Off : No AO in translucents. Partial : AO only applied to opaque part of translucents. Full : AO is fully applied to translucents.
-option.Celshade.comment=A cel shading method, adds black outline.
-option.LightmapBanding.comment=A cel shading method, reduces lightmap detail.
-option.LightShaft.comment=Adds screen space rays from sun / moon. Screen space : radial blurred sky (faster). Volumetric : raymarched shadowmap (slower).
-option.BumpyEdge.comment=Adds subtle dark and bright outline.
-option.RPSupport.comment=Enables normal mapping, specular mapping, and POM.
-option.AOHQ.comment=Adds distance scaling to AO. Increases AO sample count.
-option.AOTranslucent.comment=Allow semitransparent objects to calculate AO.
-option.RPSFormat.comment=Adjusts the format of the specular pack. S : Specular only (grayscale). SM : Specular, metalness. SME : Specular, metalness, emissive.
-option.POM_MAP_RES.comment=Adjusts the resolution of the resourcepack for correct POM.
-option.POM_DEPTH.comment=Adjusts the strength of POM.
-option.Bloom.comment=Enables glow effect.
-option.MotionBlur.comment=Enables blur based on camera movement and rotation.
-option.BloomStrength.comment=Adjusts the strength of bloom
-option.LensFlare.comment=Enables lens flare.
-option.DirtyLens.comment=Enables dirty lens. Requires bloom.
-option.FXAA.comment=Enables FXAA
-option.AverageExposure.comment=Enables automatic brightness adjustment.
-option.DOF.comment=Enables camera focus effect.
-option.FogBlur.comment=Enables blurring in distance.
-option.ColorGrading.comment=Enables color grading.
-option.ColorGrading_LUT.comment=Generate lookup table in top left corner.
-option.ColorAdjustment.comment=Enables basic color modification such as brightness, contrast, and saturation.
-option.Brightness.comment=Adjusts brightness.
-option.Saturation.comment=Adjusts saturation.
-option.Contrast.comment=Adjusts contrast.
-option.shadowMapResolution.comment=Adjusts shadowmap size. Larger is better and slower.
-option.sunPathRotation.comment=Adjusts sun angle.
-option.ShadowColor.comment=Enables tinted shadow from translucents. Performance cost depends on shadow filtering. Used for projected caustics and colored volumetric light shafts.
-option.ShadowFilter.comment=Enables shadow filtering.
-option.ShadowLeakFix.comment=Disables shadows when indoor and below certain skylight level.
-option.ShadowCloseDithering.comment=Smooths out certain shadow artifact.
-option.Clouds.comment=Enables clouds.
-option.CloudQuality.comment=Adjusts cloud quality. Higher quality reduces dither artifact, but makes the cloud look more opaque.
-option.CloudsAmount.comment=Adjusts cloud amount.
-option.CloudsHeight.comment=Adjusts cloud height.
-option.Stars.comment=Enables stars.
-option.RoundSunMoon.comment=Enables shader sun and moon. Please disable sun and moon from optifine's options.
-option.SkyDesaturation.comment=Enables sky tinting based on night color.
-option.WaterV.comment=Use vanilla water texture.
-option.SkyV.comment=Use vanilla sky color.
-option.WaterNormals.comment=Enables realtime-generated normal mapping for water.
-option.WaterReflection.comment=Enables screen space reflection for water.
-option.WaterParallax.comment=Enables water displacement.
-option.WaterRefraction.comment=Enables refraction under water surface.
-option.WaterCaustic.comment=Enables water caustics. Simple : uses world coordinates. Projected : uses shadow coordinates, requires colored shadow.
-option.WaterFog.comment=Enables underwater fog.
-option.WaterDistantWave.comment=Enables larger wave in certain distance.
-option.DisableTexture.comment=Removes textures.
-option.Desaturation.comment=Desaturates darker areas.
-option.BrightEmissive.comment=Increases the brightness of emissive blocks.
-option.EmissiveRecolor.comment=Tints certain emissive blocks with torchlight color.
-option.Weather.comment=Enables rain and snowfall.
-option.WeatherOpacity.comment=Adjusts weather opacity.
-option.Fog.comment=Enables fog.
-option.FogRange.comment=Adjusts fog distance.
-option.WorldTimeAnimation.comment=Use ingame time for moving objects.
-option.AnimationSpeed.comment=Adjusts animation speed.
+option.AO.comment=使方块夹角表面连接处变暗.
+option.TranslucentAO.comment=调整半透明方块的环境光吸收判定. Off : 半透明方块不启用环境光吸收. Partial : 环境光吸收只作用于半透明方块的不透明部分. Full : 环境光吸收应用到半透明方块的全部.
+option.Celshade.comment=一种精细的着色方法,添加了黑色描边.
+option.LightmapBanding.comment=一种精细的方法,减小光照图精度.
+option.LightShaft.comment=添加一个仅作用于屏幕空间的 太阳/月亮 光轴. 屏幕空间:从天空径向模糊(更快). 体积:依照阴影图路径(更慢).
+option.BumpyEdge.comment=添加微妙的明暗描边.
+option.RPSupport.comment=启用法线贴图,高光贴图,视差贴图的支持.
+option.AOHQ.comment=为环境光吸收添加距离缩放. 提升了环境光吸收的采样值.
+option.AOTranslucent.comment=允许半透明方块计算环境光吸收.
+option.RPSFormat.comment=调整资源包贴图支持格式. S:仅光滑度(灰度). SM:光滑度,金属度. SME:光滑度,金属度,自发光.
+option.POM_MAP_RES.comment=为资源包视差贴图调整正确的分辨率.
+option.POM_DEPTH.comment=调整视差强度.
+option.Bloom.comment=启用泛光效果.
+option.MotionBlur.comment=启用基于镜头扭转移动的模糊效果.
+option.BloomStrength.comment=调整泛光强度.
+option.LensFlare.comment=启用眩光.
+option.DirtyLens.comment=启用脏镜头. 此功能需要启用泛光.
+option.FXAA.comment=启用FXAA抗锯齿
+option.AverageExposure.comment=启用自动的亮度调整.
+option.DOF.comment=启用镜头对焦效果.
+option.FogBlur.comment=启用距离模糊.
+option.ColorGrading.comment=启用颜色分级.
+option.ColorGrading_LUT.comment=在左上角生成查询表.
+option.ColorAdjustment.comment=启用基本的色彩调整,如亮度,对比度和饱和度.
+option.Brightness.comment=调整亮度.
+option.Saturation.comment=调整饱和度.
+option.Contrast.comment=调整对比度.
+option.shadowMapResolution.comment=调整阴影分辨率. 数值越大意味着性能消耗越大.
+option.sunPathRotation.comment=调整日月角度.
+option.ShadowColor.comment=启用半透明方块可以使阴影着色. 性能消耗取决于阴影过滤. Used for projected caustics and colored volumetric light shafts.
+option.ShadowFilter.comment=启用阴影过滤.
+option.ShadowLeakFix.comment=当室内天空光等级过低时禁用阴影.
+option.ShadowCloseDithering.comment=平滑部分伪影.
+option.Clouds.comment=启用云层.
+option.CloudQuality.comment=调整云层质量. 更高的质量可以减少伪影,但是会使得云层更不透明.
+option.CloudsAmount.comment=调整云层数量.
+option.CloudsHeight.comment=调整云层高度.
+option.Stars.comment=启用天空中的星星.
+option.RoundSunMoon.comment=启用着色器的日月. 请在Optifine的设置中禁用日月.
+option.SkyDesaturation.comment=启用基于夜晚颜色的天空色调.
+option.WaterV.comment=启用原版水体贴图.
+option.SkyV.comment=启用原版天空颜色.
+option.WaterNormals.comment=启用实时生成的水面法线.
+option.WaterReflection.comment=启用水面的屏幕空间反射.
+option.WaterParallax.comment=启用水面视差.
+option.WaterRefraction.comment=启用水面下的折射.
+option.WaterCaustic.comment=启用水下焦散线. Simple : 使用世界坐标. Projected : 使用阴影坐标, 需要启用着色阴影功能.
+option.WaterFog.comment=启用水雾.
+option.WaterDistantWave.comment=在一定距离内启用更大的水面波浪.
+option.DisableTexture.comment=在世界渲染中去除贴图.
+option.Desaturation.comment=对较暗区域进行去饱和度处理.
+option.BrightEmissive.comment=提升光源的亮度.
+option.EmissiveRecolor.comment=用火把的颜色重上色一些光源方块.
+option.Weather.comment=启用降雨和降雪.
+option.WeatherOpacity.comment=调整天气不透明度.
+option.Fog.comment=启用雾气.
+option.FogRange.comment=调整雾气距离和范围.
+option.WorldTimeAnimation.comment=使用世界时间来渲染动画.
+option.AnimationSpeed.comment=调整动画速度.
+
+#额外汉化接口
+profile.3.4=3.7
+
+option.NightVision=夜视模式
+
+option.Vignette=暗角
